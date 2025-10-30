@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float playerSpeed = 5f;
+    public float slideSpeed;
     private float maxSpeed = 30f;
     private float timer = 20f;
     private float horizontalSpeed = 5f;
